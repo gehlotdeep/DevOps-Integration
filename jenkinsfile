@@ -9,7 +9,7 @@ pipeline {
                           branches: [[name: 'main']],
                           userRemoteConfigs: [[url: 'https://github.com/gehlotdeep/DevOps-Integration.git']]])
             }
-            
+             
         }
         stage("build"){
             steps {
